@@ -1,0 +1,13 @@
+{
+  "extends": "stylelint-config-recommended",
+  "customSyntax": "postcss-less",
+  "plugins": [
+    "stylelint-scss"
+  ],
+  "rules": {
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": [true, { "ignoreAtRules": ["tailwind"] }],
+    "function-no-unknown": null,
+    "keyframe-block-no-duplicate-selectors": null
+  }
+}
